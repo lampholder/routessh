@@ -8,7 +8,7 @@
 
 if [[ $# -eq 0 ]]
 then
-    echo "forward.sh: no destination supplied"
+    echo "routessh.sh: no destination supplied"
     exit
 fi
 
