@@ -5,7 +5,7 @@
 #
 # Sample /etc/ssh/sshd_config:
 # Match user joe
-#     ForceCommand /path/to/forward.sh joe@192.168.3.14
+#     ForceCommand /path/to/routessh.sh joe@192.168.3.14
 
 if [[ $# -eq 0 ]]
 then
